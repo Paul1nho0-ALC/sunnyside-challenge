@@ -1,0 +1,33 @@
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.linksContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.linkBtn {
+    font-family: 'Fraunces', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--dark-gray);
+    background-color: var(--white);
+    padding: 16px 24px;
+    border-radius: 32px;
+    transition: all .5s ease-in-out;
+}
+
+.linkBtn:hover{
+    background-color: rgb(255 255 255 / 0.2);
+}
