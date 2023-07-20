@@ -32,13 +32,21 @@ function App() {
           color="yellow"
         />
         <GridImage
-          srcImg={'/assets/images/' + mobileOrDesktop + 'image-transform.jpg'}
+          srcImg={
+            '/sunnyside-challenge/assets/images/' +
+            mobileOrDesktop +
+            'image-transform.jpg'
+          }
         />
       </GridSection>
 
       <GridSection>
         <GridImage
-          srcImg={'/assets/images/' + mobileOrDesktop + 'image-stand-out.jpg'}
+          srcImg={
+            '/sunnyside-challenge/assets/images/' +
+            mobileOrDesktop +
+            'image-stand-out.jpg'
+          }
         />
         <GridCard
           title="Stand out to the right audience"
@@ -54,14 +62,20 @@ function App() {
           text="
   Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention."
           srcImg={
-            '/assets/images/' + mobileOrDesktop + 'image-graphic-design.jpg'
+            '/sunnyside-challenge/assets/images/' +
+            mobileOrDesktop +
+            'image-graphic-design.jpg'
           }
         />
         <GridImageWithText
           color="blue"
           title="Photography"
           text="Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
-          srcImg={'/assets/images/' + mobileOrDesktop + 'image-photography.jpg'}
+          srcImg={
+            '/sunnyside-challenge/assets/images/' +
+            mobileOrDesktop +
+            'image-photography.jpg'
+          }
         />
       </GridSection>
       <TestimonialsSection>
@@ -74,13 +88,13 @@ function App() {
             ocupation="Marketing Director"
           />
           <TestimonialsCard
-            srcImg="/assets/images/image-thomas.jpg"
+            srcImg="/sunnyside-challenge/assets/images/image-thomas.jpg"
             text="Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience."
             name="Thomas S."
             ocupation="Chief Operating Officer"
           />
           <TestimonialsCard
-            srcImg="/assets/images/image-jennie.jpg"
+            srcImg="/sunnyside-challenge/assets/images/image-jennie.jpg"
             text="Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!"
             name="Jennie F."
             ocupation="Business Owner"
@@ -91,24 +105,30 @@ function App() {
       <GridFourColums>
         <GridImage
           srcImg={
-            '/assets/images/' +
+            '/sunnyside-challenge/assets/images/' +
             mobileOrDesktop +
             'image-gallery-milkbottles.jpg'
           }
         />
         <GridImage
           srcImg={
-            '/assets/images/' + mobileOrDesktop + 'image-gallery-orange.jpg'
+            './sunnyside-challenge/images/' +
+            mobileOrDesktop +
+            'image-gallery-orange.jpg'
           }
         />
         <GridImage
           srcImg={
-            '/assets/images/' + mobileOrDesktop + 'image-gallery-cone.jpg'
+            '/sunnyside-challenge/assets/images/' +
+            mobileOrDesktop +
+            'image-gallery-cone.jpg'
           }
         />
         <GridImage
           srcImg={
-            '/assets/images/' + mobileOrDesktop + 'image-gallery-sugarcubes.jpg'
+            '/sunnyside-challenge/assets/images/' +
+            mobileOrDesktop +
+            'image-gallery-sugarcubes.jpg'
           }
         />
       </GridFourColums>
