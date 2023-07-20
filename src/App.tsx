@@ -82,7 +82,7 @@ function App() {
         <h2>Client testimonials</h2>
         <TestimonialsCards>
           <TestimonialsCard
-            srcImg="/assets/images/image-emily.jpg"
+            srcImg="/sunnyside-challenge/assets/images/image-emily.jpg"
             text="We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit."
             name="Emily R."
             ocupation="Marketing Director"
@@ -112,7 +112,7 @@ function App() {
         />
         <GridImage
           srcImg={
-            './sunnyside-challenge/images/' +
+            '/sunnyside-challenge/images/' +
             mobileOrDesktop +
             'image-gallery-orange.jpg'
           }
