@@ -112,7 +112,7 @@ function App() {
         />
         <GridImage
           srcImg={
-            '/sunnyside-challenge/images/' +
+            '/sunnyside-challenge/assets/images/' +
             mobileOrDesktop +
             'image-gallery-orange.jpg'
           }
