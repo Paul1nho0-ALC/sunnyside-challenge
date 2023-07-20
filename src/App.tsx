@@ -1,3 +1,4 @@
+import { Footer } from './components/Footer'
 import { GridCard } from './components/GridCard'
 import { GridFourColums } from './components/GridFourColumns'
 import { GridImage } from './components/GridImage'
@@ -111,6 +112,7 @@ function App() {
           }
         />
       </GridFourColums>
+      <Footer />
     </>
   )
 }

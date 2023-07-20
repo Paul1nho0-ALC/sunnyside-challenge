@@ -33,7 +33,7 @@ export const Header = () => {
 
       <div className={styles.container}>
         <a href="#" aria-label="logo icon">
-          <LogoIcon />
+          <LogoIcon col="#fff" />
         </a>
         <div className={styles.linksContainer}>
           <a className={styles.link} href="#">
